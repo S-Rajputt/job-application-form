@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Aplication-Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="apply-box">
+            <h1>Job Application 
+                <span class="title">(Web)</span>
+            </h1>
+            <form action="">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="first_name">First Name</label>
+                        <input id="first_name" name="first name" placeholder="Enter first-name">
+                    </div>
+                        <div class="form-control">
+                        <label for="Last Name">Last Name</label>
+                        <input id="Last Name" name="Last Name" placeholder="Enter last-name">
+                    </div>
+                        <div class="form-control">
+                        <label for="Email-Id">Email</label>
+                        <input type="email" id="Email-Id" name="Email" placeholder="Enter Email-id">
+                    </div>
+                        <div class="form-control">
+                        <label for="Mobile No">Mobile No</label>
+                        <input type="number" id="Mobile No" name="Mobile No" placeholder="Enter Mobile-No">
+                    </div>
+                    <div class="form-control">
+                        <label for="Job-role">Applying for</label>
+                        <select name="" id="Job-role">
+                            <option value="select job role"></option>
+                            <option value="Front-end">Front-End Developer</option>
+                            <option value="Front-end">Back-End Developer</option>
+                            <option value="Front-end">Full Stack Developer</option>
+                            <option value="Front-end">Java Developer</option>
+                            <option value="Front-end">Dot.net Developer</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label for="Exp">Experience</label>
+                        <select name="" id="Exp">
+                            <option value="select job role"></option>
+                            <option value="Immidiate">Fesher</option>
+                            <option value="10">0-1</option>
+                            <option value="15">2-3</option>
+                            <option value="30">3+</option>
+                            <option value="60">5+</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label for="CTC">Current-CTC</label>
+                        <input type="text" id="CTC" name="Current CTC" placeholder="eg: 4 lpa">
+                    </div>
+                    <div class="form-control">
+                        <label for="E-CTC">Expected-CTC</label>
+                        <input type="text" id="E-CTC" name="Expected CTC" placeholder="eg : 5 lpa">
+                    </div>
+                    <div class="form-control">
+                        <label for="City">Current City</label>
+                        <input type="text" id="City" name="Current City" placeholder="Enter city here ">
+                    </div>
+                    <div class="form-control">
+                        <label for="Notice-period">Notice-period</label>
+                        <select name="" id="Notice-period">
+                            <option value="select job role"></option>
+                            <option value="Immidiate">Immidiate</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="30">30</option>
+                            <option value="60">60</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label for="upload">Upload your CV</label>
+                        <input type="file" id="upload" name="Resume">
+                    </div>
+                </div>
+                <div class="btn">
+                <button type="submit" onclick="SubmitForm(Event)"> Apply now </button>
+                </div>
+                <div id="success-message">You have successfully submitted the form!</div>
+            </form>
+       </div>
+       <script src="app.js"></script>
+</div>
+</body>
+</html>
